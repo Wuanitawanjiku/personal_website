@@ -1,0 +1,58 @@
+body{
+    background-image: url("images\ \(2\).jpeg")
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    font-family:sans-serif;
+    min-height: 12vh;
+    overflow: auto;
+    
+}
+.nav-links{
+    text-decoration:none ;
+    list-style: none;
+}
+
+.logo{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    background-color: none;
+    justify-content: space-around;
+    width: 880px;
+
+}
+
+.nav-links a{
+    color: black;
+    text-decoration-color: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.Paragraphs{
+    text-align: center;
+    font-size: large;
+    color: rgb(14, 0, 90);
+}
+
+img{
+    float: left;
+}
+
